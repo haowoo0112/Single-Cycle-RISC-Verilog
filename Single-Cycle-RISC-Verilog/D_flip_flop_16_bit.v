@@ -26,7 +26,7 @@ module D_flip_flop_16_bit(
     output reg [15:0] Q
     );
 	
-	always @(posedge clk or clr) begin
+	always @(posedge clk) begin
 		if (clr) begin
 			// reset
 			Q <= 16'd0;

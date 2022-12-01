@@ -46,7 +46,7 @@ module PC_circuit(
    two_comple_adder_16bit TwoComplete(.A(Q) ,.B(adder_B), .C(1'd0), .Y(adder_Q));
    multiplexer_2_to_1_16_bit MuxJMP (.S(JMP), .I1(Rm_out|Rd_out|label_out), .I0(adder_Q), .Y(next_addr));
    sign_extend_8_16 SE (.imm(disp8), .Q(disp8_SE));
-   always @(negedge clk or clr) begin
+   always @(negedge clk) begin
       if (clr) begin
          // reset
          next_addr_buf <= 16'd0;
@@ -56,7 +56,7 @@ module PC_circuit(
       end
    end
 
-   always @(posedge clk or clr) begin
+   always @(posedge clk) begin
       if (clr) begin
          // reset
          Q <= 16'd0;

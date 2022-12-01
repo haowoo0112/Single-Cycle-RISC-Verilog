@@ -1,0 +1,29 @@
+Command line:
+   sign_extend_8_16_sign_extend_8_16_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56302
+
+Thu Dec 01 15:58:36 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5154.19 Meg
+
+ Total Signals          : 16
+ Total Nets             : 37
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 125
+Total Line Count : 27
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5154.19 Meg
+
+Thu Dec 01 15:58:56 2022
+

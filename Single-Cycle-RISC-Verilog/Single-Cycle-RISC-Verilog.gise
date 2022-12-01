@@ -22,6 +22,14 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Single-Cycle-RISC-Verilog.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_ALU_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_ALU_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ALU_ALU_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_ALU_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="D_flip_flop_16_bit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="D_flip_flop_16_bit.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="D_flip_flop_16_bit.xst"/>
@@ -34,9 +42,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="adder_16_bit_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_16_bit_stx_beh.prj"/>
@@ -78,9 +84,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669865824" xil_pn:in_ck="-3245844067947982711" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1669865824">
+    <transform xil_pn:end_ts="1669872451" xil_pn:in_ck="-9174667297487921142" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1669872451">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="adder_16_bit.v"/>
       <outfile xil_pn:name="decoder_3_to_8_en.v"/>
@@ -88,6 +95,7 @@
       <outfile xil_pn:name="multiplexer_8_to_1.v"/>
       <outfile xil_pn:name="multiplexer_8_to_1_16_bit.v"/>
       <outfile xil_pn:name="register_file_16_bit.v"/>
+      <outfile xil_pn:name="tb_ALU.v"/>
       <outfile xil_pn:name="tb_D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="tb_adder_16_bit.v"/>
       <outfile xil_pn:name="tb_deocder_3_to_8_en.v"/>
@@ -96,11 +104,11 @@
       <outfile xil_pn:name="tb_multiplexer_8_to_1_16_bit.v"/>
       <outfile xil_pn:name="tb_register_file_16_bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1669865858" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8361974286541532336" xil_pn:start_ts="1669865858">
+    <transform xil_pn:end_ts="1669872417" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8590818332073006612" xil_pn:start_ts="1669872417">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669865858" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1809115682209115872" xil_pn:start_ts="1669865858">
+    <transform xil_pn:end_ts="1669872417" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8691588836934887036" xil_pn:start_ts="1669872417">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -108,9 +116,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669865831" xil_pn:in_ck="-3245844067947982711" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1669865831">
+    <transform xil_pn:end_ts="1669872761" xil_pn:in_ck="-9174667297487921142" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1669872761">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="adder_16_bit.v"/>
       <outfile xil_pn:name="decoder_3_to_8_en.v"/>
@@ -118,6 +127,7 @@
       <outfile xil_pn:name="multiplexer_8_to_1.v"/>
       <outfile xil_pn:name="multiplexer_8_to_1_16_bit.v"/>
       <outfile xil_pn:name="register_file_16_bit.v"/>
+      <outfile xil_pn:name="tb_ALU.v"/>
       <outfile xil_pn:name="tb_D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="tb_adder_16_bit.v"/>
       <outfile xil_pn:name="tb_deocder_3_to_8_en.v"/>
@@ -126,20 +136,20 @@
       <outfile xil_pn:name="tb_multiplexer_8_to_1_16_bit.v"/>
       <outfile xil_pn:name="tb_register_file_16_bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1669865860" xil_pn:in_ck="-3245844067947982711" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5982904050426432392" xil_pn:start_ts="1669865858">
+    <transform xil_pn:end_ts="1669872764" xil_pn:in_ck="-9174667297487921142" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9146445078128306496" xil_pn:start_ts="1669872761">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="ALU_ALU_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="ALU_ALU_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1669865861" xil_pn:in_ck="-8094663635398875215" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3194976938898576853" xil_pn:start_ts="1669865860">
+    <transform xil_pn:end_ts="1669872764" xil_pn:in_ck="3498063623263368565" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9146242092699239517" xil_pn:start_ts="1669872764">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="adder_16_bit_adder_16_bit_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="ALU_ALU_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

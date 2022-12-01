@@ -23,7 +23,8 @@ module adder_16_bit(
     input [15:0] B,
     input Cin,
     output [15:0] S,
-    output Cout
+    output Cout,
+    output Cout_1
     );
 	wire [14:0] cout;
 
@@ -41,7 +42,7 @@ module adder_16_bit(
 	full_adder FA11 (.A(A[11]), .B(B[11]), .Cin(cout[10]), .S(S[11]), .Cout(cout[11]));
 	full_adder FA12 (.A(A[12]), .B(B[12]), .Cin(cout[11]), .S(S[12]), .Cout(cout[12]));
 	full_adder FA13 (.A(A[13]), .B(B[13]), .Cin(cout[12]), .S(S[13]), .Cout(cout[13]));
-	full_adder FA14 (.A(A[14]), .B(B[14]), .Cin(cout[13]), .S(S[14]), .Cout(cout[14]));
-	full_adder FA15 (.A(A[15]), .B(B[15]), .Cin(cout[14]), .S(S[15]), .Cout(Cout));
+	full_adder FA14 (.A(A[14]), .B(B[14]), .Cin(cout[13]), .S(S[14]), .Cout(Cout_1));
+	full_adder FA15 (.A(A[15]), .B(B[15]), .Cin(Cout_1), .S(S[15]), .Cout(Cout));
 
 endmodule

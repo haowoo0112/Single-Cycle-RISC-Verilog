@@ -1,0 +1,29 @@
+Command line:
+   adder_16_bit_adder_16_bit_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64446
+
+Thu Dec 01 11:37:42 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5153.57 Meg
+
+ Total Signals          : 101
+ Total Nets             : 78
+ Total Signal Drivers   : 40
+ Total Blocks           : 19
+ Total Primitive Blocks : 17
+ Total Processes        : 26
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 191
+Total Line Count : 59
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5468.15 Meg
+
+Thu Dec 01 11:38:15 2022
+

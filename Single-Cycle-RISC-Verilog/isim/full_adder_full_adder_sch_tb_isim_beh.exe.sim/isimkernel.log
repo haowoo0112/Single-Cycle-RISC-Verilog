@@ -2,14 +2,14 @@ Command line:
    full_adder_full_adder_sch_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  64324
+     -socket  64374
 
-Thu Dec 01 11:10:37 2022
+Thu Dec 01 11:24:58 2022
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5154.21 Meg
+ Current Memory Usage: 5153.58 Meg
 
  Total Signals          : 20
  Total Nets             : 18
@@ -23,7 +23,7 @@ Total Line Count : 49
 
  Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 5154.21 Meg
+ Current Memory Usage: 5153.58 Meg
 
-Thu Dec 01 11:11:01 2022
+Thu Dec 01 11:25:06 2022
 

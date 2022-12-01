@@ -1,0 +1,6 @@
+verilog work "multiplexer_8_to_1_16_bit.v"
+verilog work "D_flip_flop_16_bit.v"
+verilog work "decoder_3_to_8_en.v"
+verilog work "register_file_16_bit.v"
+verilog work "tb_register_file_16_bit.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

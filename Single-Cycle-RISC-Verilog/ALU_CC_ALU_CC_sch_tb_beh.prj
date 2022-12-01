@@ -1,5 +1,6 @@
 verilog work "full_adder.v"
 verilog work "adder_16_bit.v"
 verilog work "ALU.v"
-verilog work "tb_ALU.v"
+verilog work "ALU_CC.v"
+verilog work "tb_ALU_CC.v"
 verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

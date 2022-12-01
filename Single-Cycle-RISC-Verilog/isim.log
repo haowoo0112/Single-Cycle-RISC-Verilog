@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\ib701\Desktop\Single-Cycle-RISC-Verilog\Single-Cycle-RISC-Verilog\ALU_ALU_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/ALU_ALU_sch_tb_isim_beh.wdb 
+Running: C:\Users\ib701\Desktop\Single-Cycle-RISC-Verilog\Single-Cycle-RISC-Verilog\ALU_CC_ALU_CC_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/ALU_CC_ALU_CC_sch_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,4 +11,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 120 ns : File "C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/tb_ALU.v" Line 83
+Stopped at time : 200 ns : File "C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/tb_ALU_CC.v" Line 119

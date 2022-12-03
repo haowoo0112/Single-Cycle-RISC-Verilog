@@ -45,9 +45,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Decode.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Instruction_Decode.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Instruction_Decode.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC_circuit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC_circuit.stx"/>
@@ -64,6 +62,13 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="RF_plus_ALU.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RF_plus_ALU_RF_plus_ALU_sch_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RF_plus_ALU_RF_plus_ALU_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_Cycle_RISC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Single_Cycle_RISC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Single_Cycle_RISC.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_16_bit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="adder_16_bit.stx"/>
@@ -127,11 +132,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1669709600" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1669709600">
+    <transform xil_pn:end_ts="1670051316" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1670051316">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1670049566" xil_pn:in_ck="-1308386504513734284" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1670049566">
+    <transform xil_pn:end_ts="1670053698" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1670053698">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -142,6 +147,7 @@
       <outfile xil_pn:name="PC_circuit.v"/>
       <outfile xil_pn:name="RAM_256x16.v"/>
       <outfile xil_pn:name="RF_plus_ALU.v"/>
+      <outfile xil_pn:name="Single_Cycle_RISC.v"/>
       <outfile xil_pn:name="adder_16_bit.v"/>
       <outfile xil_pn:name="decoder_3_to_8_en.v"/>
       <outfile xil_pn:name="full_adder.v"/>
@@ -160,6 +166,7 @@
       <outfile xil_pn:name="tb_PC_circuit.v"/>
       <outfile xil_pn:name="tb_RAM_256x16.v"/>
       <outfile xil_pn:name="tb_RF_plus_ALU.v"/>
+      <outfile xil_pn:name="tb_Single_Cycle_RISC.v"/>
       <outfile xil_pn:name="tb_adder_16_bit.v"/>
       <outfile xil_pn:name="tb_deocder_3_to_8_en.v"/>
       <outfile xil_pn:name="tb_full_adder.v"/>
@@ -171,19 +178,19 @@
       <outfile xil_pn:name="tb_sign_extend_8_16.v"/>
       <outfile xil_pn:name="two_comple_adder_16bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1670049569" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1518229913505808178" xil_pn:start_ts="1670049569">
+    <transform xil_pn:end_ts="1670052801" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4244417156392124502" xil_pn:start_ts="1670052800">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1670049569" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3289342954134355522" xil_pn:start_ts="1670049569">
+    <transform xil_pn:end_ts="1670052801" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2860590167571173190" xil_pn:start_ts="1670052801">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669865464" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4650017200690920200" xil_pn:start_ts="1669865464">
+    <transform xil_pn:end_ts="1670051317" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4650017200690920200" xil_pn:start_ts="1670051317">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1670049569" xil_pn:in_ck="-1308386504513734284" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1670049569">
+    <transform xil_pn:end_ts="1670053700" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1670053700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -194,6 +201,7 @@
       <outfile xil_pn:name="PC_circuit.v"/>
       <outfile xil_pn:name="RAM_256x16.v"/>
       <outfile xil_pn:name="RF_plus_ALU.v"/>
+      <outfile xil_pn:name="Single_Cycle_RISC.v"/>
       <outfile xil_pn:name="adder_16_bit.v"/>
       <outfile xil_pn:name="decoder_3_to_8_en.v"/>
       <outfile xil_pn:name="full_adder.v"/>
@@ -212,6 +220,7 @@
       <outfile xil_pn:name="tb_PC_circuit.v"/>
       <outfile xil_pn:name="tb_RAM_256x16.v"/>
       <outfile xil_pn:name="tb_RF_plus_ALU.v"/>
+      <outfile xil_pn:name="tb_Single_Cycle_RISC.v"/>
       <outfile xil_pn:name="tb_adder_16_bit.v"/>
       <outfile xil_pn:name="tb_deocder_3_to_8_en.v"/>
       <outfile xil_pn:name="tb_full_adder.v"/>
@@ -223,20 +232,25 @@
       <outfile xil_pn:name="tb_sign_extend_8_16.v"/>
       <outfile xil_pn:name="two_comple_adder_16bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1670049573" xil_pn:in_ck="-1308386504513734284" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="57368339503775564" xil_pn:start_ts="1670049569">
+    <transform xil_pn:end_ts="1670053704" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6760712583205481788" xil_pn:start_ts="1670053700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1670049573" xil_pn:in_ck="358369105433879682" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7927404593844332113" xil_pn:start_ts="1670049573">
+    <transform xil_pn:end_ts="1670053704" xil_pn:in_ck="-3581845453070455708" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3374270253873513183" xil_pn:start_ts="1670053704">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

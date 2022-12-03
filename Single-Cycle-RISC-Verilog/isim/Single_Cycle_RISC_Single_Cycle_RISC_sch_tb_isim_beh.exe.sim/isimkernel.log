@@ -1,0 +1,29 @@
+Command line:
+   Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57851
+
+Sat Dec 03 15:49:20 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5157.83 Meg
+
+ Total Signals          : 1112
+ Total Nets             : 836
+ Total Signal Drivers   : 326
+ Total Blocks           : 224
+ Total Primitive Blocks : 203
+ Total Processes        : 316
+ Total Traceable Variables  : 64
+ Total Scalar Nets and Variables : 9529
+Total Line Count : 506
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5472.41 Meg
+
+Sat Dec 03 15:50:11 2022
+

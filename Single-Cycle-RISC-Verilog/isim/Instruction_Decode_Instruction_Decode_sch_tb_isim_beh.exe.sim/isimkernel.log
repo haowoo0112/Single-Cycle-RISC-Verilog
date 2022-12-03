@@ -2,14 +2,14 @@ Command line:
    Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  57683
+     -socket  57821
 
-Sat Dec 03 14:39:36 2022
+Sat Dec 03 15:30:38 2022
 
 
- Elaboration Time: 0.046875 sec
+ Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5154.19 Meg
+ Current Memory Usage: 5153.59 Meg
 
  Total Signals          : 80
  Total Nets             : 90
@@ -21,9 +21,9 @@ Sat Dec 03 14:39:36 2022
  Total Scalar Nets and Variables : 188
 Total Line Count : 86
 
- Total Simulation Time: 0.109375 sec
+ Total Simulation Time: 0.046875 sec
 
- Current Memory Usage: 5468.76 Meg
+ Current Memory Usage: 4681.73 Meg
 
-Sat Dec 03 14:40:30 2022
+Sat Dec 03 15:33:01 2022
 

@@ -100,7 +100,7 @@ module Datapath_Module(
       Pre_C <= C_buf;
       Pre_V <= V_buf;
    end
-   always @(negedge clk_and_HLT or clr) begin
+   always @(negedge clk_and_HLT) begin
       if (clr) begin
          // reset
          OutR <= 16'd0;

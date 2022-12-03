@@ -1,0 +1,29 @@
+Command line:
+   Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57683
+
+Sat Dec 03 14:39:36 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5154.19 Meg
+
+ Total Signals          : 80
+ Total Nets             : 90
+ Total Signal Drivers   : 52
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 54
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 188
+Total Line Count : 86
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5468.76 Meg
+
+Sat Dec 03 14:40:30 2022
+

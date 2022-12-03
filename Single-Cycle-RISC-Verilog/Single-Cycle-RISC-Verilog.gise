@@ -38,12 +38,17 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Datapath_Module.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Datapath_Module.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Datapath_Module.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Datapath_Module_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Datapath_Module_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Decode.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Instruction_Decode.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Instruction_Decode.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC_circuit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC_circuit.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="PC_circuit.xst"/>
@@ -126,13 +131,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669905722" xil_pn:in_ck="4767304528299646157" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1669905722">
+    <transform xil_pn:end_ts="1670049566" xil_pn:in_ck="-1308386504513734284" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1670049566">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="ALU_CC.v"/>
       <outfile xil_pn:name="D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="Datapath_Module.v"/>
+      <outfile xil_pn:name="Instruction_Decode.v"/>
       <outfile xil_pn:name="PC_circuit.v"/>
       <outfile xil_pn:name="RAM_256x16.v"/>
       <outfile xil_pn:name="RF_plus_ALU.v"/>
@@ -150,6 +156,7 @@
       <outfile xil_pn:name="tb_ALU_CC.v"/>
       <outfile xil_pn:name="tb_D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="tb_Datapath_Module.v"/>
+      <outfile xil_pn:name="tb_Instruction_Decode.v"/>
       <outfile xil_pn:name="tb_PC_circuit.v"/>
       <outfile xil_pn:name="tb_RAM_256x16.v"/>
       <outfile xil_pn:name="tb_RF_plus_ALU.v"/>
@@ -164,11 +171,11 @@
       <outfile xil_pn:name="tb_sign_extend_8_16.v"/>
       <outfile xil_pn:name="two_comple_adder_16bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1669897074" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4005822267942200832" xil_pn:start_ts="1669897074">
+    <transform xil_pn:end_ts="1670049569" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1518229913505808178" xil_pn:start_ts="1670049569">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669897074" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-729949329713895024" xil_pn:start_ts="1669897074">
+    <transform xil_pn:end_ts="1670049569" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3289342954134355522" xil_pn:start_ts="1670049569">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -176,17 +183,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1669905660" xil_pn:in_ck="4767304528299646157" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1669905660">
+    <transform xil_pn:end_ts="1670049569" xil_pn:in_ck="-1308386504513734284" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1670049569">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="ALU_CC.v"/>
       <outfile xil_pn:name="D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="Datapath_Module.v"/>
+      <outfile xil_pn:name="Instruction_Decode.v"/>
       <outfile xil_pn:name="PC_circuit.v"/>
       <outfile xil_pn:name="RAM_256x16.v"/>
       <outfile xil_pn:name="RF_plus_ALU.v"/>
@@ -204,6 +208,7 @@
       <outfile xil_pn:name="tb_ALU_CC.v"/>
       <outfile xil_pn:name="tb_D_flip_flop_16_bit.v"/>
       <outfile xil_pn:name="tb_Datapath_Module.v"/>
+      <outfile xil_pn:name="tb_Instruction_Decode.v"/>
       <outfile xil_pn:name="tb_PC_circuit.v"/>
       <outfile xil_pn:name="tb_RAM_256x16.v"/>
       <outfile xil_pn:name="tb_RF_plus_ALU.v"/>
@@ -218,28 +223,20 @@
       <outfile xil_pn:name="tb_sign_extend_8_16.v"/>
       <outfile xil_pn:name="two_comple_adder_16bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1669905663" xil_pn:in_ck="4767304528299646157" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5740587488839302760" xil_pn:start_ts="1669905660">
+    <transform xil_pn:end_ts="1670049573" xil_pn:in_ck="-1308386504513734284" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="57368339503775564" xil_pn:start_ts="1670049569">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1669905663" xil_pn:in_ck="3390847581808495576" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="845075856483662411" xil_pn:start_ts="1669905663">
+    <transform xil_pn:end_ts="1670049573" xil_pn:in_ck="358369105433879682" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7927404593844332113" xil_pn:start_ts="1670049573">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Datapath_Module_Datapath_Module_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="Instruction_Decode_Instruction_Decode_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

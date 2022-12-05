@@ -5,5 +5,14 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="1689" delta="old" >"C:\Users\ib701\Desktop\Single-Cycle-RISC-Verilog\Single-Cycle-RISC-Verilog\tb_multiplexer_8_to_1.v" Line 122: System task finish is always executed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\ib701\Desktop\Single-Cycle-RISC-Verilog\Single-Cycle-RISC-Verilog\tb_multiplexer_8_to_1.v" Line 34: Using initial value of <arg fmt="%s" index="1">S2</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\ib701\Desktop\Single-Cycle-RISC-Verilog\Single-Cycle-RISC-Verilog\tb_multiplexer_8_to_1.v" Line 5: Empty module &lt;<arg fmt="%s" index="1">multiplexer_8_to_1_multiplexer_8_to_1_sch_tb</arg>&gt; remains a black box.
+</msg>
+
 </messages>
 

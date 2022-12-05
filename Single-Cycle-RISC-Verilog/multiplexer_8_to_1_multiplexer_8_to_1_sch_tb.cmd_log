@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.xst" -ofn "C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.ngc multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.xst" -ofn "C:/Users/ib701/Desktop/Single-Cycle-RISC-Verilog/Single-Cycle-RISC-Verilog/multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.syr" 

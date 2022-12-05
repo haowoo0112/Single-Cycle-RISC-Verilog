@@ -65,9 +65,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_Cycle_RISC.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Single_Cycle_RISC.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Single_Cycle_RISC.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder_16_bit.prj"/>
@@ -83,8 +81,20 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_to_8_en.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder_3_to_8_en.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder_3_to_8_en.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_envsettings.html"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_stx_par.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="full_adder.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="full_adder.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="full_adder.xst"/>
@@ -112,8 +122,16 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="multiplexer_8_to_1_16_bit.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multiplexer_8_to_1_16_bit_multiplexer_8_to_1_16_bit_sch_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplexer_8_to_1_16_bit_multiplexer_8_to_1_16_bit_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_file_16_bit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="register_file_16_bit.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="register_file_16_bit.xst"/>
@@ -127,6 +145,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="two_comple_adder_16bit.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="two_comple_adder_16bit.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="two_comple_adder_16bit.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
@@ -136,7 +155,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1670053698" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1670053698">
+    <transform xil_pn:end_ts="1670211570" xil_pn:in_ck="-1374400634940777633" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1670211570">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.v"/>
@@ -168,6 +187,7 @@
       <outfile xil_pn:name="tb_RF_plus_ALU.v"/>
       <outfile xil_pn:name="tb_Single_Cycle_RISC.v"/>
       <outfile xil_pn:name="tb_adder_16_bit.v"/>
+      <outfile xil_pn:name="tb_decoder_3_to_8_en.v"/>
       <outfile xil_pn:name="tb_deocder_3_to_8_en.v"/>
       <outfile xil_pn:name="tb_full_adder.v"/>
       <outfile xil_pn:name="tb_multiplexer_2_to_1.v"/>
@@ -178,21 +198,29 @@
       <outfile xil_pn:name="tb_sign_extend_8_16.v"/>
       <outfile xil_pn:name="two_comple_adder_16bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1670052801" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4244417156392124502" xil_pn:start_ts="1670052800">
+    <transform xil_pn:end_ts="1670208274" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8941144951865646734" xil_pn:start_ts="1670208274">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1670052801" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2860590167571173190" xil_pn:start_ts="1670052801">
+    <transform xil_pn:end_ts="1670208274" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1247162668406165150" xil_pn:start_ts="1670208274">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1670051317" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4650017200690920200" xil_pn:start_ts="1670051317">
+    <transform xil_pn:end_ts="1670208274" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5689757490698631886" xil_pn:start_ts="1670208274">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1670053700" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1670053700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="ALU_CC.v"/>
       <outfile xil_pn:name="D_flip_flop_16_bit.v"/>
@@ -232,27 +260,84 @@
       <outfile xil_pn:name="tb_sign_extend_8_16.v"/>
       <outfile xil_pn:name="two_comple_adder_16bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1670053704" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6760712583205481788" xil_pn:start_ts="1670053700">
+    <transform xil_pn:end_ts="1670208277" xil_pn:in_ck="-7697087689530153901" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4042855143867636732" xil_pn:start_ts="1670208274">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1670053704" xil_pn:in_ck="-3581845453070455708" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3374270253873513183" xil_pn:start_ts="1670053704">
+    <transform xil_pn:end_ts="1670208278" xil_pn:in_ck="-3581845453070455708" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-471848434941879125" xil_pn:start_ts="1670208277">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Single_Cycle_RISC_Single_Cycle_RISC_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="decoder_3_to_8_en_decoder_3_to_8_en_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1670210828" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1670210828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211463" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5613563800557837536" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211463" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7763393087573403128" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211463" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211463" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1202520015184839888" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211463" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-311711526559847569" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211463" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2169324851454035650" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211470" xil_pn:in_ck="-3851499688918474084" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="1692923956108538670" xil_pn:start_ts="1670211463">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.lso"/>
+      <outfile xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.prj"/>
+      <outfile xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.syr"/>
+      <outfile xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb.xst"/>
+      <outfile xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="multiplexer_8_to_1_multiplexer_8_to_1_sch_tb_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211470" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6743757175761318533" xil_pn:start_ts="1670211470">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1670211475" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-4786500952846625619" xil_pn:start_ts="1670211473">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
     </transform>
   </transforms>
 

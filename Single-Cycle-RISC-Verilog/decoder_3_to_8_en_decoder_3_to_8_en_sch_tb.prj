@@ -1,0 +1,2 @@
+verilog work "decoder_3_to_8_en.v"
+verilog work "tb_deocder_3_to_8_en.v"

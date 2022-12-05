@@ -1,0 +1,2 @@
+verilog work "multiplexer_8_to_1.v"
+verilog work "tb_multiplexer_8_to_1.v"
